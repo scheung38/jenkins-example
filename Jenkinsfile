@@ -15,5 +15,11 @@ pipeline {
             }
         }
 
+        stage('Third Stage') {
+            steps {
+                sh 'ls -al'
+            }
+        }
+
     }
 }
